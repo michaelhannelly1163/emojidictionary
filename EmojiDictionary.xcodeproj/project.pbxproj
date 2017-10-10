@@ -12,6 +12,7 @@
 		43613F7D1F8B298400F5BD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43613F7B1F8B298400F5BD32 /* Main.storyboard */; };
 		43613F7F1F8B298400F5BD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43613F7E1F8B298400F5BD32 /* Assets.xcassets */; };
 		43613F821F8B298400F5BD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43613F801F8B298400F5BD32 /* LaunchScreen.storyboard */; };
+		43613F8A1F8B35D700F5BD32 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43613F891F8B35D700F5BD32 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		43613F7E1F8B298400F5BD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43613F811F8B298400F5BD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43613F831F8B298400F5BD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43613F891F8B35D700F5BD32 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				43613F771F8B298400F5BD32 /* AppDelegate.swift */,
 				43613F791F8B298400F5BD32 /* ViewController.swift */,
+				43613F891F8B35D700F5BD32 /* DefinitionViewController.swift */,
 				43613F7B1F8B298400F5BD32 /* Main.storyboard */,
 				43613F7E1F8B298400F5BD32 /* Assets.xcassets */,
 				43613F801F8B298400F5BD32 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43613F7A1F8B298400F5BD32 /* ViewController.swift in Sources */,
+				43613F8A1F8B35D700F5BD32 /* DefinitionViewController.swift in Sources */,
 				43613F781F8B298400F5BD32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DP642LBUYQ;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MHApps.EmojiDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DP642LBUYQ;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MHApps.EmojiDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
